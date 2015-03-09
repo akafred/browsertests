@@ -1,7 +1,7 @@
 vm-test
 ======
 
-Vagrant test-machine for running Cucumber
+Vagrant virtual machine for running browser tests with Cucumber.
 
 This setup uses [Vagrant](http://www.vagrantup.com/) for local virtualisation
 and [SaltStack](http://docs.saltstack.com/) for automated provisioning.
@@ -33,7 +33,7 @@ and [SaltStack](http://docs.saltstack.com/) for automated provisioning.
             * wget
         * After installing Cygwin/X Windows users should use the program "XWin Server" for commands like git, make etc.
 2. Clone this repo from the command line (in a directory of your choice):
-   ```git clone https://github.com/digibib/ls.ext.git```
+   ```git clone https://github.com/akafred/browsertests.ext.git```
 3. `cd ls.ext` into your cloned repo. 
 4. Then change to this branch: `git checkout vm-test-only`
 4. From the command line run: `make` to bootstrap the environment and run the tests.
@@ -82,7 +82,7 @@ The first step for creating a new feature is authoring a test, in this case a ve
 2. Change directory to LS.ext by typing
 
    ```
-cd (foldername where you keep your projects)/LS.ext/test/features
+cd (foldername where you keep your projects)/browsertests/test/features
 ```
 Then type
 
